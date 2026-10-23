@@ -1,0 +1,36 @@
+{
+  "timestamp_utc": "2026-10-23T09:14:19.809550+00:00",
+  "quick": false,
+  "seed": 42,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "jobs": 1,
+  "samples": 569,
+  "features": 30,
+  "malignant_samples": 212,
+  "benign_samples": 357,
+  "positive_class": "malignant",
+  "threshold": 0.5,
+  "selection_metric": "roc_auc",
+  "data_sha256": "cd60f9d9bbf47e4ee9aa149267b292bfd34b4507901000282ae4d510e1bd3cc2",
+  "python": "3.13.0",
+  "platform": "Windows",
+  "packages": {
+    "numpy": "2.2.1",
+    "pandas": "2.2.3",
+    "scipy": "1.14.1",
+    "scikit-learn": "1.6.0",
+    "matplotlib": "3.10.3",
+    "joblib": "1.4.2",
+    "threadpoolctl": "3.5.0"
+  },
+  "source_sha256": {
+    "__init__.py": "da1b683903ec4b705ddfb08c6a509fed56390f2c5490cf6bbc523397549c73cb",
+    "__main__.py": "f71157a4acac5f73f0be2e9e61c1158adf95ca621b815d990552165bf7bada5f",
+    "data.py": "800924d65ea73689cdb4ed39cbf7014a54b792dbf2c9e4c4805d8f07e4bbcb4e",
+    "evaluation.py": "e1d884fd753836bbf8958f15450d9511b2cb2223d403f8350feb46031b8abb6d",
+    "exploration.py": "7bb88c34e0a8507116a556dac628a2a326a1269b5a8bb790995137fc0340bb3b",
+    "models.py": "07390f61320f0dd02afe43eca38b9d3f8d44eadd65905432d979e3415feba5e6",
+    "reporting.py": "9b201cb99e22610c5f464e7c48b12a537a257f5602ce9007ab6ec1aeed549510"
+  }
+}
